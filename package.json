@@ -1,0 +1,27 @@
+{
+  "name": "koa-geolocation",
+  "version": "1.0.0",
+  "description": "Simple ip geolocation lookup middleware for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/bin/mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianvoe/geolocation.git"
+  },
+  "author": "Brian Voelker <brian@webiswhatido.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianvoe/geolocation/issues"
+  },
+  "homepage": "https://github.com/brianvoe/geolocation",
+  "dependencies": {
+    "geoip-lite": "^1.1.6",
+    "koa": "^0.21.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
